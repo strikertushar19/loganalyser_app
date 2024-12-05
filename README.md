@@ -6,13 +6,12 @@ This app provides three main functionalities:
    - Analyzes the log file and calculates how many requests each IP address has made.
    - Displays the results in a neatly formatted table with "IP Address" and "Request Count".
 
-### 2. **Top N IPs**
-   - Allows the user to specify a number (N) and returns the top N IP addresses that made the most requests.
-   - Displays these top IPs in descending order of request count.
+### 2. **Most Accessed Endpoint**
+   - This feature diplay the most accessed endpoint and how many times it is accessed as well .
 
-### 3. **Requests by Time Period**
-   - Users can specify a time range (e.g., from `start_time` to `end_time`).
-   - The app will then show the number of requests made by each IP within this time period.
+### 3. **Suspicious Activity Dectection**
+   - This feature allows to track which ip address is accessing endpoint with how many failed attempts or code 401 
+   - It provides user option to provide threshold value or else use default 10 request per ip for failed attempts.
 
 ## Installation
 
