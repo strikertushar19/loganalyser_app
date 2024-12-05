@@ -35,8 +35,9 @@ external libraries or modules apart from  built in regex patterns re module of p
 
    ```bash
    python main.py
-
+```
 or
 
    ```bash
    python3 main.py
+```
